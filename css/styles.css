@@ -1,5 +1,10 @@
 /* ------------ My Universal Styles ------------ */
 
+/* ---- Jquery Validation Styles ---- */
+label.error{color:#FFF;background-color:#FA6666;font-weight:normal;font-size:13px;margin-top:6px;padding:3px 6px;}
+input.error{border:1px solid #FA6666;}
+input.valid{border:1px solid #38B251;}
+
 
 /* ------------ My Modular Styles ------------ */
 
