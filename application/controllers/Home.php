@@ -27,6 +27,7 @@ class Home extends CI_Controller {
 		// In case of any error just add line below
 		// $this->data['showErr'] = array("heading" => "Error Title", "message" => "Error Description");
 		
+		$this->data['title'] = "Default Title from Controller Method";
 		$this->data['vcontent'] = __FUNCTION__;
 		$this->load->view('template', $this->data);
 	}

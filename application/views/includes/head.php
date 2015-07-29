@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title><?php echo $site_name; ?></title>
+	<title><?php if(isset($title)) { echo $title; } else { echo $site_name; } ?></title>
 	<meta name="description" content="Sample Description">
 	<meta name="keywords" content="">
 	<meta name="author" content="Dwij IT Solutions">
