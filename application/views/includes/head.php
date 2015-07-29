@@ -2,6 +2,15 @@
 <html lang="en">
 <head>
 	<title><?php echo $site_name; ?></title>
+	<meta name="description" content="Sample Description">
+	<meta name="keywords" content="">
+	<meta name="author" content="Dwij IT Solutions">
+	
+	<meta property="og:title" content="Sample Title">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="">
+	<meta property="og:description" content="Sample Description">
 	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
