@@ -5,9 +5,9 @@ $autoload['packages'] = array();
 $autoload['libraries'] = array('database', 'session');
 $autoload['drivers'] = array();
 $autoload['helper'] = array();
-$autoload['config'] = array('config-dwij');
+$autoload['config'] = array('config-extra');
 $autoload['language'] = array();
-$autoload['model'] = array();
+$autoload['model'] = array("test_model");
 
 /*
 | -------------------------------------------------------------------
